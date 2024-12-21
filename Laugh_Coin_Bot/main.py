@@ -4,7 +4,7 @@ from telegram_bot.handlers import register_handlers, dp
 
 import functions.config as config
 
-# Запуск
+# Запуск бота
 async def main() -> None:
     try:
         # Запуск Telegram-бота
