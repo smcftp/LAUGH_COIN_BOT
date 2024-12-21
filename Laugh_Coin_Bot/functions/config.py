@@ -1,19 +1,8 @@
 from pydantic_settings import BaseSettings
 
-from openai import OpenAI
-
-import platform
-import struct
-import ctypes
-
-from aiogram import Bot, Dispatcher, Router
+from aiogram import Bot, Dispatcher
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
-from aiogram.fsm.storage.memory import MemoryStorage
-
-from telethon import TelegramClient, events
-
-from openai import OpenAI
 
 ############################################################
 
@@ -24,7 +13,7 @@ class Settings(BaseSettings):
     telegram_bot_token: str
 
     class Config:
-        env_file = 'D:\\Programming\\Python\\GPT\\Laugh_Coin_Bot\\.env'
+        env_file = ''
 
 set = Settings()
 
