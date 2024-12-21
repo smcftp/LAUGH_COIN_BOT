@@ -3,3 +3,4 @@ aiohttp
 asyncio
 pydantic
 openai
+pydantic-settings
