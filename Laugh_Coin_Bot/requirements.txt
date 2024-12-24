@@ -3,3 +3,4 @@ aiohttp
 asyncio
 pydantic_settings
 openai
+sqlalchemy
