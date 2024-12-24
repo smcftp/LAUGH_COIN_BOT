@@ -1,5 +1,5 @@
 aiogram
 aiohttp
 asyncio
-pydantic
+pydantic_settings
 openai
