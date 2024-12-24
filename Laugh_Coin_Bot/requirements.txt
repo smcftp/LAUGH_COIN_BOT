@@ -1,5 +1,0 @@
-aiogram
-aiohttp
-asyncio
-openai
-pydantic-settings
