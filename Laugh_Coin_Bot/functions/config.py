@@ -24,7 +24,7 @@ class Settings(BaseSettings):
     telegram_bot_token: str
 
     class Config:
-        env_file = 'D:\\Programming\\Python\\GPT\\Laugh_Coin_Bot\\.env'
+        env_file = ""
 
 set = Settings()
 
